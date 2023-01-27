@@ -50,7 +50,7 @@ export default {
     },
     methods: {
         lastElement() {
-            // this.x = this.language.toString(); //to convert the whole array of language to string 
+            // this.lastCheckedLanguage = this.language.toString(); //to convert the whole array of language to string 
             this.lastCheckedLanguage = this.language.slice(-1).toString(); //to convert last checked element of language array
         }
     }
